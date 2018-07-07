@@ -1,23 +1,30 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <app-navbar/>
     <router-view/>
+    <app-footer/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+  import Navbar from './components/layout/Navbar';
+  import Footer from './components/layout/Footer';
+
+  export default {
+    name: 'App',
+    components: {
+      'app-navbar': Navbar,
+      'app-footer': Footer,
+    },
+  }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="sass">
+  @import "~bulma"
+  @import "~buefy/src/scss/buefy"
+  #app
+    font-family: 'DengXian';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
 </style>
