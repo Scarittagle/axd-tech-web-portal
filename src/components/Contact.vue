@@ -44,6 +44,8 @@
               @click="submit">
               提交
             </div>
+            <p class="subtitle err-msg">{{ error_message }}</p>
+            <p class="subtitle">{{ notification_message }}</p>
           </template>
         </div>
         <div v-if="isSubmit">
@@ -56,7 +58,7 @@
 </template>
 
 <script>
-  import router from 'vue-router'
+  import * as emailjs from 'emailjs-com'
 
   export default {
     data(){
@@ -66,7 +68,9 @@
           email: '',
           name: '',
           message: ''
-        }
+        },
+        error_message: null,
+        notification_message: null,
       }
     },
     created(){
@@ -77,12 +81,33 @@
     },
     methods:{
       submit() {
-        console.log(this.contactForm);
-        // TODO: EmailJS implementation
-        this.isSubmit = true;
-        setTimeout(() => {
-          this.$router.push('/');
-        }, 5000);
+        this.error_message = null;
+        if (this.contactForm.email !== '' && this.contactForm.name !== '' && this.contactForm.message !== '') {
+          this.notification_message = '提交中,请稍后...';
+          // TODO: EmailJS implementation
+          emailjs.init("user_2JIyPb5ktoJn1om31lImh");
+          const service_id = "default_service";
+          const template_id = "template_HUBND88Y";
+          const template_params = {
+            "message_html": `<p>邮件地址： ${ this.contactForm.email }</p>
+                             <p>姓名： ${ this.contactForm.name }</p>
+                             <p>消息： ${ this.contactForm.message }</p>`,
+          }
+
+          emailjs.send(service_id, template_id, template_params)
+            .then((response) => {
+              console.log('SUCCESS!', response.status, response.text);
+              this.isSubmit = true;
+              setTimeout(() => {
+                this.$router.push('/');
+              }, 5000);
+            }, (error) => {
+              this.notification_message = null;
+              this.error_message = error;
+            });
+        } else {
+          this.error_message = '请填写完所有项再提交!';
+        }
       },
     }
   }
@@ -106,5 +131,9 @@
   }
   .email {
     width: 20rem;
+  }
+  .err-msg {
+    margin-top: 2rem;
+    color: red;
   }
 </style>
