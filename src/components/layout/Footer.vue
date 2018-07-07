@@ -36,12 +36,14 @@
               icon="window-maximize"/>
             网址：www.axd-cn.com
           </h2>
-          <h2 class="subtitle">
+          <a
+            class="subtitle map-link"
+            @click="openMap">
             <fa-icon
               class="icon-color"
               icon="map-marked-alt"/>
             地址：深圳市光明新区蒋石油麻岗港深高新科技园B4/B5栋
-          </h2>
+          </a>
         </div>
       </div>
     </div>
@@ -50,16 +52,16 @@
 
 <script>
   export default {
-    data(){
-      return {
-        linkedin: 'https://www.linkedin.com/in/scarittagle/',
-      }
-    },
     computed: {
       year() {
         return new Date().getFullYear();
       },
     },
+    methods: {
+      openMap() {
+        window.open('https://uri.amap.com/marker?position=113.893545,22.741849', '_blank');
+      }
+    }
   };
 </script>
 
@@ -78,6 +80,9 @@
     margin-left: 1.5rem;
   }
   .icon-color {
+    color: #3273dc
+  }
+  .map-link:hover {
     color: #3273dc
   }
 </style>
