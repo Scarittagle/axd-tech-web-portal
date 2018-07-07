@@ -22,6 +22,10 @@
 <style lang="sass">
   @import "~bulma"
   @import "~buefy/src/scss/buefy"
+  @font-face
+    font-family: shanhun
+    src: url('/static/font/shanhun.ttf')
+
   #app
     font-family: 'DengXian';
     -webkit-font-smoothing: antialiased;
