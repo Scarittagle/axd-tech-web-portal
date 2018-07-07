@@ -1,6 +1,7 @@
 # axd-tech-web-portal
 
 > Web Portal for AXD Technology Co, Ltd.
+
 > 这是一个给奥兴达科技有限公司制作的一个单页面网络应用，无后台，仅供简单展示（更多像是个网站）
 
 ## Build Setup
