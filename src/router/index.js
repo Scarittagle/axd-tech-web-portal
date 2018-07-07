@@ -10,6 +10,8 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
-    }
+    },
+    // 404 Page Not found Handle
+    { path: '/*', redirect: '/' },
   ]
 })
