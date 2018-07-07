@@ -7,7 +7,7 @@
             20年电子产品制造经验
           </h1>
           <h2 class="subtitle about-subtitle">
-            20 Years of Electrical Product Manufacturing Experience
+            20 Years of Electronics Manufacturing Experience
           </h2>
           <p>成立于1999年,公司成立之始就定位为电子行业提供全新服务的科技型企业，公司现有员工600人。
           公司承揽电子产品类的OEM、ODM生产加工和制造，涉及网络通信、汽车电子、安防、医疗等各领域。服务范围涉及合作开发，工艺设计，物流配套，SMT贴片，组装测试，包装运输等。</p>
