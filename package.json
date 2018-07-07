@@ -19,6 +19,7 @@
     "node-sass": "^4.9.1",
     "sass-loader": "^7.0.3",
     "vue": "^2.5.2",
+    "vue-fontawesome": "0.0.2",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

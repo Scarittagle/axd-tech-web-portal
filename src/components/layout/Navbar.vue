@@ -3,12 +3,11 @@
     <div class="background-overlay">
       <div class="hero-head">
         <nav class="navbar">
-          <div class="container">
+          <div class="container thick-bar">
             <div class="navbar-brand">
               <a class="navbar-item">
                 <img
-                  src="https://bulma.io/images/bulma-type-white.png"
-                  alt="Logo">
+                  src="/static/Logo.svg">
               </a>
               <span
                 class="navbar-burger burger"
@@ -22,23 +21,41 @@
               id="navbarMenuHeroB"
               class="navbar-menu">
               <div class="navbar-end">
-                <a class="navbar-item is-active">
-                  Home
-                </a>
-                <a class="navbar-item">
-                  Examples
-                </a>
-                <a class="navbar-item">
-                  Documentation
-                </a>
-                <span class="navbar-item">
-                  <a class="button is-info is-inverted">
-                    <span class="icon">
-                      <i class="fab fa-github"/>
-                    </span>
-                    <span>Download</span>
+                <router-link
+                  to="/"
+                  class="navbar-item customed-item">
+                  主页
+                </router-link>
+                <router-link
+                  to="/contact"
+                  class="navbar-item customed-item">
+                  联系我们
+                </router-link>
+                <div class="navbar-item is-hoverable">
+                  <a class="navbar-link">
+                    <p>更改语言</p>
                   </a>
-                </span>
+                  <div class="navbar-dropdown is-boxed">
+                    <a class="navbar-item">
+                      <img
+                        class="flag"
+                        src="/static/CN.png">
+                      简体中文
+                    </a>
+                    <a class="navbar-item">
+                      <img
+                        class="flag"
+                        src="/static/HK.png">
+                      繁体中文
+                    </a>
+                    <a class="navbar-item">
+                      <img
+                        class="flag"
+                        src="/static/EN.png">
+                      English
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -79,9 +96,23 @@ export default {
   .company-title
     margin-bottom: 0
     color: whitesmoke
-    font-family: DengXian
+    font-family: "Microsoft JhengHei UI"
   .company-subtitle
     margin-bottom: 1.35rem
     color: whitesmoke
     font-family: Bahnschrift
+  .thick-bar
+    margin-top: 1rem
+  .customed-item
+    color: whitesmoke
+  .customed-item:hover
+    color: #3273dc
+    background-color: rgba(255, 255, 255, 0)
+  .navbar-link
+    color: whitesmoke
+  .navbar-link:hover
+    color: #3273dc
+    background-color: rgba(255, 255, 255, 0)
+  .flag
+    padding-right: 0.5rem
 </style>
