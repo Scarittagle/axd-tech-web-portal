@@ -20,13 +20,13 @@
 </script>
 
 <style lang="sass">
-  @import "~bulma"
+  @import '~bulma'
   @import "~buefy/src/scss/buefy"
   @font-face
     font-family: shanhun
     src: url('/static/font/shanhun.ttf')
   @font-face
-    font-family: bahnschrift
+    font-family: Fahnschrift
     src: url('/static/font/bahnschrift.ttf')
   @font-face
     font-family: "Microsoft JhengHei UI"
