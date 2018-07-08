@@ -18,6 +18,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.0",
     "buefy": "^0.6.6",
     "bulma": "^0.7.1",
+    "bulma-extensions": "^2.2.1",
     "emailjs": "^2.1.0",
     "emailjs-com": "^2.2.4",
     "express": "^4.16.3",

@@ -25,6 +25,12 @@
   @font-face
     font-family: shanhun
     src: url('/static/font/shanhun.ttf')
+  @font-face
+    font-family: bahnschrift
+    src: url('/static/font/bahnschrift.ttf')
+  @font-face
+    font-family: "Microsoft JhengHei UI"
+    src: url('/static/font/msjh.ttf'),url('/static/font/msjhbd.ttf'),url('/static/font/msjhl.ttf')
 
   #app
     font-family: 'DengXian';
