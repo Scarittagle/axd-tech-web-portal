@@ -9,10 +9,12 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { Carousel } from 'bootstrap-vue/es/components';
 
 library.add(fas);
 
 Vue.component('fa-icon', FontAwesomeIcon);
+Vue.use(Carousel);
 Vue.use(Buefy, { defaultIconPack: 'fas' });
 
 Vue.config.productionTip = false;

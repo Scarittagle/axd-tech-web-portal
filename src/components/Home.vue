@@ -3,7 +3,20 @@
     <app-intro/>
     <app-collaborate-partners/>
     <app-machinery/>
-    <app-product-carousel/>
+    <div
+      style="background-color:#20314c"
+      class="columns is-vcentered is-marginless">
+      <div class="column is-paddingless">
+        <div
+          class="has-text-centered">
+          <h1 class="title is-size-1 carousel-title">合作产品展示</h1>
+          <h2 class="subtitle carousel-subtitle">Collaborate Product Showcase</h2>
+        </div>
+      </div>
+      <div class="column is-paddingless">
+        <app-product-carousel/>
+      </div>
+    </div>
     <app-slogan/>
   </div>
 </template>
@@ -33,4 +46,12 @@
 </script>
 
 <style scoped>
+  .carousel-title {
+    color: white;
+    font-family: "Microsoft JhengHei UI";
+  }
+  .carousel-subtitle {
+    color: white;
+    font-family: Bahnschrift;
+  }
 </style>

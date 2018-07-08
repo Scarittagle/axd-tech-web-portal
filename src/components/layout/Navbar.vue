@@ -33,7 +33,7 @@
                 </router-link>
                 <div class="navbar-item is-hoverable">
                   <a class="navbar-link">
-                    <p>更改语言</p>
+                    <p class="language">更改语言</p>
                   </a>
                   <div class="navbar-dropdown is-boxed">
                     <a class="navbar-item">
@@ -108,9 +108,11 @@ export default {
   .customed-item:hover
     color: #3273dc
     background-color: rgba(255, 255, 255, 0)
-  .navbar-link
+  .language
     color: whitesmoke
   .navbar-link:hover
+    .language
+      color: #3273dc
     color: #3273dc
     background-color: rgba(255, 255, 255, 0)
   .flag

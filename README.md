@@ -19,21 +19,29 @@ Vuex-PersistedState - Vuex plugin for Persist information in browser storage
 
 ESLint - linting plugin for ES6 Javascript
 
-ESLintVue - ESLint for VueJS
-
 **Library**
 
-EmailJS - Send email directly from Javascript
+EmailJS - Send email directly from Javascript without Backend
 
-Bulma - CSS Styling Library
+Bulma - CSS Styling Library for VueJS
+
+Bootstrap - CSS Styling Library
 
 Buefy - Styling Library for VueJS
 
 Fontawesome5 - Icon library for Buefy and Bulma
 
+**Plug-in**
+
+ESLintVue - ESLint for VueJS
+
+Bootstrap-Vue - Official Bootstrap Wrapper for VueJS
+
+Vue-Fontawesome - Fontawesome Icon Wrapper for VueJS
+
 **Backend**
 
-Express.js - Node.js web application framework
+Express.js - Node.js web application microframework
 
 ##Demo
 https://axd-web-portal.herokuapp.com/#/
