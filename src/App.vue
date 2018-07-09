@@ -21,6 +21,7 @@
 
 <style lang="sass">
   @import '~bulma'
+  @import './assets/styles/custom-style'
   @import "~buefy/src/scss/buefy"
   @font-face
     font-family: shanhun
@@ -30,7 +31,7 @@
     src: url('/static/font/bahnschrift.ttf')
   @font-face
     font-family: "Microsoft JhengHei UI"
-    src: url('/static/font/msjh.ttf'),url('/static/font/msjhbd.ttf'),url('/static/font/msjhl.ttf')
+    src: url('/static/font/msjh.ttc'),url('/static/font/msjhbd.ttc'),url('/static/font/msjhl.ttc')
 
   #app
     font-family: 'DengXian';

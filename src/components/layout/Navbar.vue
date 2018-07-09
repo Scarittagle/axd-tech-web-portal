@@ -110,6 +110,7 @@ export default {
     background-color: rgba(255, 255, 255, 0)
   .language
     color: whitesmoke
+    margin-bottom: 0
   .navbar-link:hover
     .language
       color: #3273dc

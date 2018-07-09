@@ -1,0 +1,76 @@
+// Bulma & Bootstrap Style Override to Avoid any style conflicts between 2 libraries
+
+
+// Container is forced to use Bulma Setup.
+.container
+  margin: 0 auto !important
+  position: relative !important
+
+
+@media screen and (min-width: 1088px)
+  .container
+    max-width: $desktop !important
+    width: $desktop !important
+
+  .container.is-fluid
+    margin-left: 64px
+    margin-right: 64px
+    max-width: none
+    width: auto
+
+@media screen and (max-width: 1279px)
+  .container.is-widescreen
+    max-width: $widescreen !important
+    width: auto
+
+
+@media screen and (max-width: 1471px)
+  .container.is-fullhd
+    max-width: $fullhd !important
+    width: auto
+
+
+
+@media screen and (min-width: 1280px)
+  .container
+    max-width: $widescreen !important
+    width: $widescreen !important
+
+
+
+@media screen and (min-width: 1472px)
+  .container
+    max-width: $fullhd !important
+    width: $fullhd !important
+
+
+// Navbar Override to use Bulma Style
+
+.navbar > .container,
+.navbar > .container-fluid
+  align-items: stretch !important
+  display: flex !important
+  min-height: 3.25rem !important
+  width: 100% !important
+
+.navbar
+    min-height: 3.25rem !important
+
+.navbar-brand,
+.navbar-tabs
+  align-items: stretch !important
+  display: flex !important
+  flex-shrink: 0 !important
+  min-height: 3.25rem !important
+
+@media screen and (max-width: 1087px)
+  .navbar-brand .navbar-item,
+  .navbar-tabs .navbar-item
+    align-items: center !important
+    display: flex !important
+
+@media screen and (min-width: 1088px)
+  .navbar > .container .navbar-brand,
+  .container > .navbar .navbar-brand
+    margin-left: -1rem !important
+
