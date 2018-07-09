@@ -3,10 +3,10 @@
     <div class="hero-body about-hero-body">
       <div class="container has-text-centered">
         <h1 class="title is-size-1 about-title">
-          20年电子产品制造经验
+          {{ year - 1999 }}年电子产品制造经验
         </h1>
         <h2 class="subtitle about-subtitle">
-          20 Years of Electronics Manufacturing Experience
+          {{ year - 1999 }} Years of Electronics Manufacturing Experience
         </h2>
         <p>成立于1999年,公司成立之始就定位为电子行业提供全新服务的科技型企业，公司现有员工600人。
         我们承揽电子产品类的OEM、ODM生产加工和制造,涉及消费电子、汽车电子、IT通信、IP电话、安防、医疗等各个领域，
@@ -18,6 +18,11 @@
 
 <script>
   export default {
+    computed: {
+      year() {
+        return new Date().getFullYear();
+      },
+    },
   }
 </script>
 
