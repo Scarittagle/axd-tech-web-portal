@@ -30,7 +30,6 @@
                       v-model="contactForm.email"
                       class="email"
                       type="email"
-                      maxlength="30"
                       required/>
                   </b-field>
                   <b-field label="消息内容 Message：">
@@ -41,13 +40,19 @@
                       required/>
                   </b-field>
                 </section>
-                <div
-                  class="button is-info is-outlined submit-button"
-                  @click="submit">
-                  提交
+                <div class="columns is-vcentered">
+                  <div class="column is-one-fifth">
+                    <div
+                      class="button is-info is-outlined submit-button is-fullwidth"
+                      @click="submit">
+                      提交
+                    </div>
+                  </div>
+                  <div class="column">
+                    <p class="subtitle err-msg is-marginless">{{ error_message }}</p>
+                    <p class="subtitle is-marginless">{{ notification_message }}</p>
+                  </div>
                 </div>
-                <p class="subtitle err-msg">{{ error_message }}</p>
-                <p class="subtitle">{{ notification_message }}</p>
               </template>
             </div>
             <div v-if="isSubmit">
@@ -149,6 +154,9 @@
   .amap-wrapper {
     width: 100%;
     height: 100%;
+    min-height: 592px;
+    max-height: 592px;
+    position: relative;
   }
   .map-custom-padding {
     padding-left: 3rem;
@@ -165,9 +173,6 @@
   .contact-subtitle {
     font-family: "Microsoft JhengHei UI";
   }
-  .submit-button {
-    width: 10rem;
-  }
   .name {
     width: 20rem;
   }
@@ -175,7 +180,6 @@
     width: 20rem;
   }
   .err-msg {
-    margin-top: 2rem;
     color: red;
   }
 </style>
