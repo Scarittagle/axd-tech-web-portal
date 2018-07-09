@@ -1,4 +1,4 @@
-# axd-tech-web-portal
+# Aoxinda Technology Official Web Portal
 
 > Web Portal for AXD Technology Co, Ltd.
 
@@ -39,11 +39,13 @@ Bootstrap-Vue - Official Bootstrap Wrapper for VueJS
 
 Vue-Fontawesome - Fontawesome Icon Wrapper for VueJS
 
+Vue-Amap - AutoNavi Map API Wrapper for VueJS
+
 **Backend**
 
 Express.js - Node.js web application microframework
 
-##Demo
+## Demo
 https://axd-web-portal.herokuapp.com/#/
 
 ## Build Setup
@@ -60,6 +62,16 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+```
+
+## To Check render result before deploy to Hosting Server
+
+``` bash
+# Build for production
+npm run build
+
+# run local Backend
+node server.js
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
