@@ -39,6 +39,11 @@
         img-width="1024"
         img-height="480"
       />
+      <b-carousel-slide
+        img-src="http://i2.bvimg.com/652933/4dc6b2365c341ce8.png"
+        img-width="1024"
+        img-height="480"
+      />
     </b-carousel>
   </section>
 </template>
