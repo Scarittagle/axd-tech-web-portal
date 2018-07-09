@@ -16,13 +16,7 @@
             <fa-icon
               class="icon-color"
               icon="phone"/>
-            电话：0755-3326 6976
-          </h2>
-          <h2 class="subtitle">
-            <fa-icon
-              class="icon-color"
-              icon="fax"/>
-            传真：0755-3326 6995
+            电话：0755-3326 6975 或 13602573153 (CEO办公室)
           </h2>
           <h2 class="subtitle">
             <fa-icon

@@ -26,6 +26,7 @@
     "node-sass": "^4.9.1",
     "sass-loader": "^7.0.3",
     "vue": "^2.5.2",
+    "vue-amap": "^0.5.8",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

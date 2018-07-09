@@ -61,7 +61,7 @@
               <h2 class="subtitle machine-content">
                 我们拥有十几条SMT加工生产线，还有多条插件线、组装线及测试线。
                 并且拥有全新的JUKI FX-3TL、JUKI KE-2070、JUKI KE-2080系列等新型中高速贴片机设备，
-                多台八温区、十温区HELLER回流焊炉和最新无铅波峰焊，还具有AOI检测设备以及美国OK公司的BGA返修系统等重要技术。
+                多台九温区、十三温区HELLER回流焊炉和最新无铅波峰焊，还具有AOI检测设备以及美国OK公司的BGA返修系统等重要技术。
               </h2>
             </div>
           </div>
