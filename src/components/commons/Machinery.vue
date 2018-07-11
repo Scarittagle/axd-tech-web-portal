@@ -78,7 +78,7 @@
 
 <style scoped>
   .hero.is-medium.machine {
-    background-image: url(/static/smtmachine.jpg);
+    background-image: url('http://i4.bvimg.com/652933/5d33b28cea843b10.jpg');
     position: relative;
     background-size: cover;
   }

@@ -81,7 +81,7 @@ export default {
 
 <style lang="sass" scoped>
   .hero
-    background-image: url('/static/Header.jpg')
+    background-image: url('http://i4.bvimg.com/652933/97813c37aadd5ae9.jpg')
     position: relative
     background-size: cover
   .hero:before

@@ -31,11 +31,10 @@
     src: url('/static/font/bahnschrift.ttf')
   @font-face
     font-family: "Microsoft JhengHei UI"
-    src: url('/static/font/msjh.ttc'),url('/static/font/msjhbd.ttc'),url('/static/font/msjhl.ttc')
+    src: url('/static/font/msjh.ttc')
 
   #app
-    font-family: 'DengXian';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    color: #2c3e50
 </style>
