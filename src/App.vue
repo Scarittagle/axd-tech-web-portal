@@ -27,7 +27,7 @@
     font-family: shanhun
     src: url('/static/font/shanhun.ttf')
   @font-face
-    font-family: Fahnschrift
+    font-family: Bahnschrift
     src: url('/static/font/bahnschrift.ttf')
   @font-face
     font-family: "Microsoft JhengHei UI"
