@@ -36,13 +36,13 @@
             <fa-icon
               class="icon-color"
               icon="at"/>
-            邮箱：axd@axd-cn.com
+            邮箱：axd@axd-cn.com 或 cs@axd-tech.com
           </h2>
           <h2 class="subtitle">
             <fa-icon
               class="icon-color"
               icon="window-maximize"/>
-            网址：www.axd-cn.com
+            网址：www.axd-tech.com
           </h2>
           <a
             class="subtitle map-link"
