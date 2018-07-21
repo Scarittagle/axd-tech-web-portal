@@ -2,10 +2,24 @@
   <footer class="footer">
     <div class="container">
       <div class="columns is-centered">
-        <div class="column copy-right-title is-two-fifths is-paddingless">
-          <h2 class="subtitle is-pulled-right">
-            © {{ year }} 深圳市奥兴达科技有限公司
-          </h2>
+        <div class="column copy-right-title is-3 is-paddingless">
+          <div class="columns is-marginless">
+            <div
+              style="padding-right: 0"
+              class="column">
+              <img
+                class="is-pulled-right"
+                style="width: 50%"
+                src="../../../static/fulllogo.png">
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <h2 class="subtitle is-pulled-right">
+                © {{ year }} 深圳市奥兴达科技有限公司
+              </h2>
+            </div>
+          </div>
         </div>
         <div class="column is-narrow vertical-bar"/>
         <div class="column is-two-fifths is-narrow is-paddingless">

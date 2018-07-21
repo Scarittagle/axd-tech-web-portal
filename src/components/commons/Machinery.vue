@@ -78,7 +78,7 @@
 
 <style scoped>
   .hero.is-medium.machine {
-    background-image: url('http://i4.bvimg.com/652933/5d33b28cea843b10.jpg');
+    background-image: url('https://rpoxfw.bn.files.1drv.com/y4mcEY6wBncF5K-tZGyHhVOdorU6Uxp5W9InHcOljo7uP9toWuBe0YerX5NvLeuTcEVBtmQAzAeOmHO89R0tFjaCBavpurMSLTZE5QIaeZXZUoOQKRKinBKfI3A1B9zyhvrS_Wb1ULLztd2nY_8OUPk13OBduSNqTkgOqFnIkA_gcXTrJPdc5r8BS2WWp3GMdI6VIfzAMjB1jysNZgpLQIQ-g?width=3491&height=1207&cropmode=none');
     position: relative;
     background-size: cover;
   }

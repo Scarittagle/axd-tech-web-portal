@@ -1,6 +1,18 @@
 <template>
-  <section class="hero is-large">
+  <section class="hero is-large video">
     <div class="background-overlay">
+      <div class="hero-video">
+        <video
+          id="bgvid"
+          playsinline
+          autoplay
+          muted
+          loop>
+          <source
+            src="https://s3.ap-northeast-2.amazonaws.com/axd-tech-web-portal/SMT+Machine_1.mp4"
+            type="video/mp4">
+        </video>
+      </div>
       <div class="hero-head">
         <nav class="navbar">
           <div class="container thick-bar">
@@ -81,7 +93,7 @@ export default {
 
 <style lang="sass" scoped>
   .hero
-    background-image: url('http://i4.bvimg.com/652933/97813c37aadd5ae9.jpg')
+    background-image: url('https://rpmy9a.bn.files.1drv.com/y4mVP3Rg-VZAbKSbIKINcmfeEE3rAXKcq6zu1eMMjVZI7PV4WAhos5tYXlxZ5e8dqsRz_zp4sr60-Ae1FMz8KoHibJlv9tjahBP5igIqerMmnQFD3FsXa6W5uC8F-ZYxk0fs8zQaq9dvG4q2jKUPkC5EvOmafYSFzoCUnylCBjkRgqC_Tw51ytBTQw7VE2Y1DdXF_-0Xd8tPmagZULZcxTK9A?width=5472&height=3648&cropmode=none')
     position: relative
     background-size: cover
   .hero:before
