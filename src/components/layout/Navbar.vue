@@ -79,7 +79,7 @@
       <div class="hero-foot">
         <div class="container">
           <p class="title is-size-1 company-title">深圳市奥兴达科技有限公司</p>
-          <p class="title company-subtitle">AXD Technology Co., Ltd.</p>
+          <p class="title company-subtitle">Aoxinda Technology Company Limited</p>
         </div>
       </div>
     </div>
@@ -108,11 +108,12 @@ export default {
   .company-title
     margin-bottom: 0
     color: whitesmoke
-    font-family: "Microsoft JhengHei UI"
+    text-shadow: 2px 2px #000000
   .company-subtitle
     margin-bottom: 1.35rem
     color: whitesmoke
-    font-family: Bahnschrift
+    font-family: 'Questrial', sans-serif
+    text-shadow: 2px 2px #000000
   .thick-bar
     margin-top: 1rem
   .customed-item

@@ -48,10 +48,9 @@
 <style scoped>
   .carousel-title {
     color: white;
-    font-family: "Microsoft JhengHei UI";
   }
   .carousel-subtitle {
     color: white;
-    font-family: Bahnschrift;
+    font-family: 'Questrial', sans-serif;
   }
 </style>

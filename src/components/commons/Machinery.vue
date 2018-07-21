@@ -93,15 +93,13 @@
     opacity: 0.8
   }
   .machine-title {
-    font-family: "Microsoft JhengHei UI";
     color: white;
   }
   .machine-subtitle {
-    font-family: Bahnschrift;
+    font-family: 'Questrial', sans-serif;
     color: white;
   }
   .machine-content {
-    font-family: "Microsoft JhengHei UI";
     color: white;
   }
 </style>

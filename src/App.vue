@@ -23,17 +23,17 @@
   @import '~bulma'
   @import './assets/styles/custom-style'
   @import "~buefy/src/scss/buefy"
+  @import url('https://fonts.googleapis.com/css?family=Questrial')
   @font-face
     font-family: shanhun
     src: url('/static/font/shanhun.ttf')
   @font-face
-    font-family: Bahnschrift
-    src: url('/static/font/bahnschrift.ttf')
-  @font-face
-    font-family: "Microsoft JhengHei UI"
-    src: url('/static/font/msjh.ttc')
+    font-family: Arita
+    src: url('/static/font/Arita.ttf')
 
   #app
+    font-family: Arita
+    font-size: 20px
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
     color: #2c3e50

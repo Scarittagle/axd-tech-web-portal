@@ -164,14 +164,8 @@
     padding-top: 0;
     padding-bottom: 0;
   }
-  .contact-title {
-    font-family: "Microsoft JhengHei UI";
-  }
   .en-translate-contact-title {
-    font-family: Bahnschrift;
-  }
-  .contact-subtitle {
-    font-family: "Microsoft JhengHei UI";
+    font-family: 'Questrial', sans-serif;
   }
   .name {
     width: 20rem;

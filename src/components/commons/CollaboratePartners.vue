@@ -93,16 +93,14 @@
     background-color: #38404c;
   }
   .coop-company-title {
-    font-family: "Microsoft JhengHei UI";
     margin-bottom: 2rem;
     color: white;
   }
   .coop-company-subtitle {
-    font-family: "Microsoft JhengHei UI";
     color: white;
   }
   .subtitle-within {
-    font-family: Bahnschrift;
+    font-family: 'Questrial', sans-serif;
     color: white;
   }
 </style>

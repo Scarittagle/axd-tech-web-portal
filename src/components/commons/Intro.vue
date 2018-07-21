@@ -31,7 +31,7 @@
     font-family: shanhun;
   }
   .about-subtitle {
-    font-family: Bahnschrift;
+    font-family: 'Questrial', sans-serif;
   }
   .hero.is-medium .hero-body.about-hero-body {
     padding-top: 5rem;
